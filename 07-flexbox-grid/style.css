@@ -1,0 +1,22 @@
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+body {
+  margin: 0;
+}
+
+h2 {
+  background: #e7e7e7;
+  border: 1px solid #d7d7d7;
+  padding: 20px;
+  margin: 0px;
+}
+
+.grid {
+  margin-top: 60px;
+  grid-template-columns: repeat(4, 1fr);
+}
