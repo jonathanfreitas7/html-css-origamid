@@ -14,30 +14,44 @@ p {
   padding: 20px;
 }
 
-.container h1 {
-  font-size: 40px;
-  line-height: 50px;
-  font-weight: 300;
-  color: #06f;
-  margin-bottom: 40px;
-}
-
-.seguros {
-  display: flex;
-  gap: 60px;
-}
-
-.seguros h2 {
+.texto-grande {
   font-size: 40px;
   line-height: 50px;
   font-weight: 300;
 }
-.seguros p {
+
+.texto-medio {
   font-size: 20px;
   line-height: 30px;
   font-weight: 300;
-  margin-bottom: 20px;
+}
+
+.flex {
+  display: flex;
+}
+
+.gap-60 {
+  gap: 60px;
+}
+
+.gap-30 {
+  gap: 60px;
+}
+
+.cor-primaria {
+  color: #06f;
+}
+
+.cor-cinza {
   color: #707070;
+}
+
+.mb-1 {
+  margin-bottom: 20px;
+}
+
+.mb-2 {
+  margin-bottom: 40px;
 }
 
 .btn {
