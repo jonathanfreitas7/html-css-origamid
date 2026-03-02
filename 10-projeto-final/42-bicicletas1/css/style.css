@@ -15,8 +15,8 @@
 @import "./home/depoimento.css";
 
 /* Bicicletas */
-@import "./bicicletas/bicicletas-lista.css";
 @import "./bicicletas/bicicletas.css";
+@import "./bicicletas/bicicletas-lista.css";
 
 /* seguros */
 @import "./seguros/seguros.css";
@@ -25,3 +25,7 @@
 
 /* termos */
 @import "./termos/termos.css";
+
+/* Bicicleta */
+@import "./bicicleta/bicicleta.css";
+@import "./bicicleta/seguro.css";
