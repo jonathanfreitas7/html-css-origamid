@@ -1,20 +1,63 @@
 .grid {
   display: grid;
   gap: 20px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-rows: repeat(3, auto) 1fr; */
+  /* place-items: start; */
+  /* grid-template-rows: 300px auto; */
+  /* grid-auto-rows: 600px; */
 }
 
-.foto {
-  grid-column: span 3;
+.titulo {
+  grid-column: 1 / -1;
 }
 
-.descricao {
-  grid-column: 1 / 3;
+.info {
+  place-self: start;
+  display: grid;
+  place-items: start;
+  gap: 20px;
+}
+
+/* .foto {
+  grid-column: 1;
+  grid-row: 2 / 5;
 }
 
 .comprar {
-  grid-column: 1 / 3;
+  grid-column: 2;
+} */
+
+/* .preco {
+  grid-column: 2;
+  grid-row: 2;
+  grid-area: 2 / 2;
+} */
+
+/* .foto {
+  grid-column: 1 / 3;  expandir da linha 1 até a 3
+  grid-column: 1 / -1; expandir o máximo da linha
+  grid-column: span 2; expandir 2 colunas a partir do momento inicial
+  grid-column: 2 / span 3; comece da linha 2 e expadir 3 colunas
+  grid-column: 1 / -1;
+} */
+
+/* .titulo {
+  grid-column: 2;
+  text-align: right;
 }
+.preco {
+  place-self: start end;
+}
+
+.comprar {
+  align-self: start;
+  text-align: center;
+}
+
+.descricao {
+  text-align: right;
+} */
 
 /* Estilos Gerias */
 

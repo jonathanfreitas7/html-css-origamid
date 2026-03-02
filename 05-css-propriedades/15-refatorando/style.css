@@ -112,7 +112,7 @@ p {
   text-align: right;
   padding: 40px;
   align-self: center;
-  background-image: url(/13-refatorando/img/onda.svg);
+  background-image: url("/05-css-propriedades/15-refatorando/img/onda.svg");
 }
 
 .vantagens {
